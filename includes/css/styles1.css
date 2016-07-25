@@ -1,0 +1,267 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   @import url(https://fonts.googleapis.com/css?family=Oswald);
+   @import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+   @import url(https://fonts.googleapis.com/css?family=Montserrat);
+   @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+.navbar{
+  background: maroon;
+  /*opacity: 0.9;*/
+}
+#features{
+  text-align: center;
+  margin: 0 0 20px;
+}
+#inputMessage{
+  margin-bottom: 10px;
+}
+/*#featuresHeading{
+  margin-top: 100px;
+}*/
+#featuresHeading{
+  /*font-weight: 300px;*/
+  color: #262626;
+  margin-left: 19px;
+}
+#featuresHeading h2{
+  font-family: 'Montserrat', sans-serif;
+
+}
+.feature img{
+  width: 100%;
+}
+.feature p{
+  font-family: 'Montserrat', sans-serif;
+  margin-top:20px;
+
+}
+.info h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.info p{
+  margin-left: 30px;
+}
+.feature1{
+  margin-bottom: 20px;
+  margin-top: 25px;
+   margin:auto;
+}
+.feature1 a h3{
+  color: black;
+  text-decoration: none;
+}
+.library{
+  background-color:#bf4040;
+  text-align: center;
+  font-weight: 500;
+  /*width: 50%;
+  margin-right: 50px;
+  margin-left: 10px;*/
+  padding: 15px;
+}
+
+.library h3{
+  font-family: 'Fjalla One', sans-serif;
+}
+.campus{
+  background-color: #2d5986;
+  text-align: center;
+  font-weight: 500;
+  /*margin-right: 30px;*/
+  padding: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: 'Oswald', sans-serif;
+}
+
+#features .panel img{
+  height: 300px;
+}
+#features .panel p{
+  text-align: justify;
+}
+.campus h3{
+  font-family: 'Fjalla One', sans-serif;
+
+}
+.ERP{
+  background-color:rgb(125,123,123);
+  /*margin-right: 0px;*/
+  text-align: center;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+.ERP h3{
+  font-family: 'Fjalla One', sans-serif;
+
+}
+
+.feature2{
+  margin-top: 30px;
+}
+.img1{
+  position: relative;
+  padding-right: 10px;
+}
+.img2{
+  position: relative;
+}
+.img3{
+  position: relative;
+}
+/*.text1{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 80%;
+  left: 10%;
+}*/
+.text2{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 80%;
+  left: 10%;
+}
+.text3{
+  position: absolute;
+  font-size: 20px;
+  color: white;
+  top: 80%;
+  left: 10%;
+}
+.footer{
+  background-color: #262626l;
+}
+
+  .bitotsav iframe{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 100%;
+  }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+ .well .page-header{
+   margin-top: 0px;
+ }
+ .well .page-header h1{
+   margin-top: 0px;
+ }
+ .tabbable img.thumbnail{
+   margin: 0 20px 10px 0;
+ }
+
+ footer {
+ 	background: #333;
+ 	color: #eee;
+ 	font-size: 11px;
+ 	padding: 20px;
+ }
+ footer ul li{
+   margin:10px;
+   display: inline;
+ }
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput{
+     width: 200px;
+   }
+   .navbar-brand{
+     padding: 5px 15px;
+   }
+   .nav li a{
+     color:white;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+  #mycarousel .item{
+    height: 600px;
+  }
+  .carousel-caption{
+    font-size: 24px;
+  }
+  .carousel-caption h4{
+    font-size: 32px;
+  }
+  #slide1{
+    background:url('../../images/backe1.jpg') top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+  #slide2{
+    background:url('../../images/backe3.jpg') top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  #slide3
+  {
+    background:url('../../images/backe2.jpg') top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+
+
+/* Landscape phone to portrait tablet */
+media (max-width: 768px) {
+  #mycarousel .item{
+    height: 300px;
+  }
+  #slide1{
+background:url('../../images/backe1_small.jpg') top center no-repeat;
+  }
+  #slide2{
+    background:url('../../images/backe3_small_02.jpg') top center no-repeat;
+
+  }
+  #slide3
+  {
+    background:url('../../images/backe2_small_03.jpg') top center no-repeat;
+
+  }
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h4{
+    font-size: 22px;
+  }
+
+}
